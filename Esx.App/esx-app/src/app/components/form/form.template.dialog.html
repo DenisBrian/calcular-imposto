@@ -1,0 +1,21 @@
+<h1 mat-dialog-title>Dados do Funcionário</h1>
+<div mat-dialog-content>
+    <ul>
+        <li>
+            <label>Nome:</label>
+            <span>{{ data.nome }}</span>
+        </li>
+        <li>
+            <label>Salário Bruto:</label>
+            <span>R$ {{data.salarioBruto}}</span>
+        </li>
+        <li>
+            <label>Salário Líquido:</label>
+            <span>R$ {{data.salarioLiquido}}</span>
+        </li>
+        <li>
+            <label>Imposto Aplicado:</label>
+            <span>{{data.imposto * 100}}%</span>
+        </li>
+    </ul>
+</div>

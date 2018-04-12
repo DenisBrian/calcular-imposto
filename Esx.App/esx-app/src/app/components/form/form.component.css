@@ -1,0 +1,16 @@
+.input-size {
+    width: 50%
+}
+
+label {
+    font: bold 18px "Roboto","Helvetica Neue",sans-serif;
+}
+
+span {
+    font: 14px "Roboto","Helvetica Neue",sans-serif;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0px;
+}

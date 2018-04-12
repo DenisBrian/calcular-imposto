@@ -1,0 +1,22 @@
+<form [formGroup]="form">
+    <mat-grid-list cols="1" rowHeight="90px">
+      <mat-grid-tile>
+        <mat-form-field class="input-size">
+          <input required matInput placeholder="Nome" formControlName="nome" name="nome">
+        </mat-form-field>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-form-field class="input-size">
+            <input required matInput placeholder="Email" formControlName="email" name="email">
+        </mat-form-field>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-form-field class="input-size">
+            <input required matInput placeholder="Salário" formControlName="salario" name="salario">
+        </mat-form-field>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <button mat-raised-button color="primary" (click)="postFunctionario()" >Enviar</button>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </form>
