@@ -12,9 +12,6 @@ import { MatDialog, MAT_DIALOG_DATA } from '@angular/material';
 })
 export class FormComponent implements OnInit {
   form: FormGroup;
-  nome: string = "";
-  email: string = "";
-  salario: number = 0;
   funcionario: Funcionario = new Funcionario();
 
   constructor(public dialog: MatDialog, private fb: FormBuilder, private funcionarioService: FuncionarioService) { }
